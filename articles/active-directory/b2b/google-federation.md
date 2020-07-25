@@ -19,7 +19,7 @@ ms.collection: M365-identity-device-management
 
 # Add Google as an identity provider for B2B guest users
 
-By setting up federation with Google, you can allow invited users to sign in to your shared apps and resources with their own Gmail accounts, without having to create Microsoft accounts (MSAs). 
+By setting up federation with Google, you can allow invited users to sign in to your shared apps and resources with their personally owned or G Suite-provided Gmail accounts, without having to create Microsoft accounts (MSAs).
 
 > [!NOTE]
 > Google federation is designed specifically for Gmail users. To federate with G Suite domains, use the [direct federation feature](direct-federation.md).
@@ -35,7 +35,7 @@ If the guest user sees a "header too long" error, they can try clearing their co
 
 ## Limitations
 
-Teams fully supports Google guest users on all devices. Google users can sign in to Teams from a common endpoint like `https://teams.microsoft.com`.
+Teams fully supports Google guest users on all devices. Google users (whether using a personal @gmail.com address or an @example.com G Suite-provided Gmail address) can sign in to Teams from a common endpoint like `https://teams.microsoft.com`.
 
 Other applications' common endpoints might not support Google users. Google guest users must sign in using a link that includes your tenant information. The following are examples:
   * `https://myapps.microsoft.com/?tenantid=<your tenant id>`
